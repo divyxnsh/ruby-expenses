@@ -41,3 +41,5 @@ gem "js_from_routes", "~> 2.0.4", group: :development
 gem "request_store_rails" # not needed, but you need to remove "RequestLocals" references
 # Devise is a flexible authentication solution for Rails based on Warden. [https://github.com/heartcombo/devise]
 gem "devise"
+
+gem "cancancan"
