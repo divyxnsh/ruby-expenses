@@ -4,6 +4,9 @@ class CategoriesController < ApplicationController
   # GET /categories
   def index
     @categories = Category.all
+    render inertia: "categories/index", props: {
+      categories: @categories
+    }
   end
 
   # GET /categories/1

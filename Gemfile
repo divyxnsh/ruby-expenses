@@ -36,3 +36,8 @@ gem 'dotenv-rails', groups: [:development, :test]
 gem "inertia_rails", "~> 3.0"
 # Brings Rails named routes to modern javascript (https://github.com/elmassimo/js_from_routes)
 gem "js_from_routes", "~> 2.0.4", group: :development
+
+# Allows to register per-request thread-safe variables (https://github.com/ElMassimo/request_store_rails)
+gem "request_store_rails" # not needed, but you need to remove "RequestLocals" references
+# Devise is a flexible authentication solution for Rails based on Warden. [https://github.com/heartcombo/devise]
+gem "devise"
